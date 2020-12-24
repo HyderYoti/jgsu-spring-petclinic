@@ -1,13 +1,10 @@
 pipeline {
-
-    stages {
-
-        stage("build") {
+    agent any
+    stages { 
+        stage('build') {
             steps {
-
-               echo 'building Hyders application.'
+                echo 'Hi Hyder: Building'
             }
         }
-
     }
 }
